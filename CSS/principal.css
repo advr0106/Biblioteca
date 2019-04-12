@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
   }
+
 nav
   {
     display: flex;
@@ -107,4 +108,10 @@ nav
     }
     .toggle .line3{
       transform: rotate(-45deg translate(-5px,-6px));
+    }
+
+    nav .nav-links li .sub-inicio li a{
+      background-color: rgba(226, 226, 226);
+      color:#fff;
+      text-decoration: none;
     }
