@@ -48,11 +48,19 @@ nav
     height: 5px;
     background-color: rgba(226, 226, 226);
     margin: 5px;
+
+  }
+    @media screen and (max-width:768px)
+    {
+      body{
+
+
   }  
     @media screen and (max-width:768px)
     {
       body{
         
+
       }
       .nav-links{
         position: absolute;
@@ -69,11 +77,19 @@ nav
       }
       .nav-links li{
         opacity: 0;
+
+
+      }
+      .burger{
+        display: block;
+
+
         
       }
       .burger{
         display: block;
         
+
       }
 
 
@@ -83,6 +99,7 @@ nav
     .nav-active{
       transform: translateX(0%);
     }
+
 
     @keyframes navLinkFade{
       from{
