@@ -48,11 +48,19 @@ nav
     height: 5px;
     background-color: rgba(226, 226, 226);
     margin: 5px;
+<<<<<<< HEAD
   }
     @media screen and (max-width:768px)
     {
       body{
 
+=======
+  }  
+    @media screen and (max-width:768px)
+    {
+      body{
+        
+>>>>>>> 650549f0d95b5ce7460d8b6ff207c5464a6078e4
       }
       .nav-links{
         position: absolute;
@@ -69,14 +77,26 @@ nav
       }
       .nav-links li{
         opacity: 0;
+<<<<<<< HEAD
 
       }
       .burger{
         display: block;
 
+=======
+        
+      }
+      .burger{
+        display: block;
+        
+>>>>>>> 650549f0d95b5ce7460d8b6ff207c5464a6078e4
       }
     }
 
     .nav-active{
       transform: translateX(0%);
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 650549f0d95b5ce7460d8b6ff207c5464a6078e4
