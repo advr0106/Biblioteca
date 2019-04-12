@@ -110,8 +110,39 @@ nav
       transform: rotate(-45deg translate(-5px,-6px));
     }
 
-    nav .nav-links li .sub-inicio li a{
-      background-color: rgba(226, 226, 226);
+    nav .nav-links li .sub-libros li a{
+      background-color:#76323F;
       color:#fff;
       text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+
+    }
+
+    nav .nav-links li .sub-musica li a{
+      background-color:#76323F;
+      color:#fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+
+    }
+
+    nav .nav-links li .sub-libros li a:hover {
+      background-color:#434343;
+    }
+
+    nav .nav-links li .sub-musica li a:hover {
+      background-color:#434343;
+    }
+
+
+    nav .nav-links li ul{
+      display: none;
+      position: absolute;
+      min-width: 140px;
+    }
+
+    nav .nav-links li:hover > ul{
+      display: block;
     }
