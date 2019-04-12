@@ -11,5 +11,5 @@ navLinks.forEach((link, index)=>{
 	console.log(index);
 });
 }
-//yo que se mira el video
+//yo que se mira el
 navSlide();
