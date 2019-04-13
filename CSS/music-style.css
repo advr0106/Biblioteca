@@ -47,11 +47,13 @@
 
 .grid figcaption a {
 	text-align: center;
+	color:#fff;
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
 	background: #ed4e6e;
 	color: #fff;
+
 }
 
 
@@ -230,4 +232,5 @@ a:active {
 	}
 
 }
+
 
