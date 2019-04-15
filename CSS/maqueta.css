@@ -1,0 +1,53 @@
+*
+  {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+  }
+
+.cnt
+  {
+    margin: auto;
+    height: 1000px;
+    width: 1349px;
+  }
+
+.hdr
+  {
+    width: 100%;
+    height: 30%;
+  }
+
+.nv
+  {
+    width: 100%;
+    height: 7%;
+  }
+
+.cnd
+  {
+    width: 100%;
+    height: 57%;
+    position: sticky;
+    top: 0;
+  }
+
+.stn
+  {
+    width: 80%;
+    height: 100%;
+    float: left;
+  }
+
+.asd
+  {
+    width: 20%;
+    height: 100%;
+    float: right;
+  }
+
+.footer
+  {
+    width: 100%;
+    height: 7%;
+  }
