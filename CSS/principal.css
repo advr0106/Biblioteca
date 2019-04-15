@@ -68,7 +68,12 @@ nav
     @media screen and (max-width:768px)
     {
       body{
-        overflow: hidden;
+
+      }
+      nav{
+        position: -webkit-sticky;
+    	position: sticky;
+    	top: 0vh;
       }
       .icono{
         width: 50px;
