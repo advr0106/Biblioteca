@@ -15,8 +15,8 @@ body{
 }
 .card{
   cursor: pointer;
-  width: 340px;
-  height: 480px;
+  width: 220px;
+  height: 280px;
 }
 .front,.back{
   width: 100%;
