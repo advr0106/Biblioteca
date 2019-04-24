@@ -37,6 +37,9 @@ nav
   {
     list-style: none;
   }
+  .icono{
+    font-size: 17px;
+  }
   .nav-links a
   {
     color: rgb(226, 226, 226);
