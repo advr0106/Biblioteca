@@ -12,8 +12,13 @@
 }
 .card{
   cursor: pointer;
+<<<<<<< HEAD
   width: 250px;
   height: 340px;
+=======
+  width: 220px;
+  height: 280px;
+>>>>>>> 5147a234dfafe115b233bb021626dc4bb4bacc76
 }
 .front,.back{
   width: 100%;
