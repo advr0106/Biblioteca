@@ -4,9 +4,6 @@
   text-decoration: none;
   font-family: "montserrat";
 }
-body{
-  background: #333;
-}
 .middle{
   position: absolute;
   top: 50%;
@@ -15,8 +12,13 @@ body{
 }
 .card{
   cursor: pointer;
+<<<<<<< HEAD
+  width: 250px;
+  height: 340px;
+=======
   width: 220px;
   height: 280px;
+>>>>>>> 5147a234dfafe115b233bb021626dc4bb4bacc76
 }
 .front,.back{
   width: 100%;
@@ -37,7 +39,7 @@ body{
   transform: perspective(600px) rotateY(180deg);
 }
 .back-content{
-  color: #2c3e50;
+  color: #565656;
   text-align: center;
   width: 100%;
 }
@@ -50,7 +52,7 @@ body{
   height: 40px;
   justify-content: center;
   align-items: center;
-  color: #2c3e50;
+  color: #565656;
   font-size: 18px;
   transition: 0.4s;
   border-radius: 50%
