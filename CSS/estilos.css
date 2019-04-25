@@ -222,14 +222,14 @@ header .boton{
   .cards img{
     width: 145px;
     height:145px;
-    ../imgs/classroom.png
+    ../imgs/fondos/grain.jpg
     border-radius: 100%;
   }
 
   .fondo{
     height: 900px;
     position: relative;
-    background-image: url(../imgs/los-libros-de-marketing-digital-mas-vendidos.png);
+    background-image: url(../imgs/fondos/rojo3.jpg);
     overflow: hidden;
     background-attachment: fixed;
     background-position: center;
