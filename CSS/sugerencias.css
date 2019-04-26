@@ -18,22 +18,31 @@ nav
     background-color: #76323F;
     font-family: 'Poppins', sans-serif;
   }
-.logo
+.logo img
     {
       color: rgb(226, 226, 266);
-      text-transform: uppercase;
       letter-spacing: 5px;
       font-size: 20px;
-    }
+      margin-left:40px;
+      width: 65%;
+      }
+      .banner{
+        width:100% ;
+        height:250px;
+      }
 .nav-links
     {
     display: flex;
     justify-content: space-around;
-    width: 65%;
+    width: 150%;
+    margin-left: 10%;
     }
  .nav-links li
   {
     list-style: none;
+  }
+  .icono{
+    font-size: 17px;
   }
   .nav-links a
   {
@@ -55,15 +64,6 @@ nav
     margin: 5px;
   }
 
-    @media screen and (max-width:769px){
-      .nav-links{
-            width: 60%;
-          }
-          .icono{
-            width: 50px;
-            font-size: 30px;
-          }
-    }
 
     @media screen and (max-width:768px)
     {
@@ -76,11 +76,15 @@ nav
     	top: 0vh;
       }
       .icono{
-        width: 50px;
+        width: 25%;
         font-size: 30px;
       }
+      .logo{
+        width: 50%;
+        margin-left: 1px;
+      }
       .nav-links{
-        position: absolute;
+        position: fixed;
         right: 0px;
         height: 92vh;
         top: 8vh;
@@ -94,11 +98,9 @@ nav
       }
       .nav-links li{
         opacity: 100;
-
       }
       .burger{
         display: block;
-
       }
       .t1{
         background-color:#76323F;
@@ -225,8 +227,8 @@ nav
   }
 
   .footer{
-  background: #76323F;
-  padding: 40px;
+  background: #565656;
+  padding: 20px;
   border: 1px solid #f0f0f0;
   text-align: center;
   color: #9c9c9c;
