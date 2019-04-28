@@ -42,8 +42,7 @@ nav
     list-style: none;
   }
   .icono{
-    font-size: 1px;
-    width: 10px;
+    font-size: 17px;
   }
   .nav-links a
   {
@@ -77,9 +76,8 @@ nav
     	top: 0vh;
       }
       .icono{
-        width: 45%;
+        width: 25%;
         font-size: 30px;
-        align-items: center;
       }
       .logo{
         width: 50%;
@@ -249,7 +247,7 @@ nav
 }
 
 .slides img{
- 
+  width:100%
 }
 
 .slidesjs-pagination{
