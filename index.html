@@ -118,10 +118,17 @@
     <!-- Fin menu de arriba  -->
 
 
-
-    <section id="cabecera">
+    <div class="main">
+      <div class="slides">
+        <img src="imgs\slide\WhatsApp Image 2019-04-27 at 7.44.53 PM.jpeg" alt="" width="1349px" height="450px">
+        <img src="imgs\slide\WhatsApp Image 2019-04-27 at 7.45.17 PM.jpeg" alt="" width="1349px" height="450px">
+        <img src="imgs\slide\3de5a759-53f5-42b5-8126-a3217dab98c3.jpg" alt="" width="1349px" height="450px">
+      </div>
+    </div>
+   <!--   
+ <section id="cabecera">
         <img src="imgs\fondos/Fondos.png" alt="" width="1349px" height="400px">
-    </section>
+    </section>-->
     <section id="boletin">
       <div class="contededor">
         <h1>Suscribirse a nuestro boletín</h1>
@@ -314,5 +321,31 @@
 
 </div>
 </div>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="JS/jquery.slides.js"></script>
+<script>
+   $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 5000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+</script>
   </body>
 </html>
