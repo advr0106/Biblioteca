@@ -4,7 +4,7 @@
 }
 
 #cabecera h1{
-  
+
   font-size:55px;
 
 }
@@ -134,4 +134,11 @@ footer{
   background-color:#565656;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+}
+
+
+.cart{
+  position: relative;
+
+
 }
