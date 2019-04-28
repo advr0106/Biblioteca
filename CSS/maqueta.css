@@ -4,9 +4,9 @@
 }
 
 #cabecera h1{
-  margin-top:100px;
+  
   font-size:55px;
-  margin-bottom:10px;
+
 }
 
 #cabecera p{
@@ -98,7 +98,7 @@
 /*Fin del boton de suscribirse*/
 
 #cajas{
-  margin-top:20px;
+
   height: 350px;
 }
 
