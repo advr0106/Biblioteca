@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Nothing+You+Could+Do|Satisfy|Shadows+Into+Light');
 .contenedor
   {
     margin: 0 auto 100px auto;
@@ -36,7 +36,7 @@
     position: absolute;
     width: 260px;
     height: 400px;
-    background-color: #d7c3c7;
+    background-color: #C09F80;
     backface-visibility: hidden;
   }
 .cara2 .poster
@@ -75,6 +75,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
 }
 .info header h1
 {
@@ -91,9 +93,11 @@
   padding: 1.2em 1.4em;
   margin: 2px 0 0;
   font-weight: 700;
-  color: #666;
+  color: #fff;
   line-height: 1.4em;
   border-top: 10px solid #555;
+  font-size: 14px;
+  text-align: justify;
 }
 .cara2 .poster,
 .cara2 .info,
@@ -180,7 +184,7 @@
 }
 .cara1:nth-child(8) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/);
+  background-image: url(../imgs/creditos/aimee.jpeg);
 }
 .cara1:nth-child(8) .info header
 {
@@ -260,11 +264,11 @@
 }
 .cara1:nth-child(18) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/omar1.jpg);
 }
 .cara1:nth-child(18) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/omar2.jpg);
 }
 .cara1:nth-child(19) .cara2 .poster
 {
