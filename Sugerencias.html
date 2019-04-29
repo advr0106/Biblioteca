@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-   ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
       <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,7 +10,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/sugerencias.css">
-    <link rel="icon" type="image/png" href="imgs/logo/logo-solo2.png" />
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="icon" type="image/ico" href="imgs/logo/ico.ico" />
+    <script src="js/modernizr.custom.js">
+
+    </script>
     <title>Sugerencias</title>
   </head>
   <body background="imgs/libros.gif">
@@ -51,7 +53,7 @@
             </a>
           </li>
           <li>
-            <a href="https://pwbooks2.blogspot.com/" class="t4" >
+            <a href="#" class="t4 md-trigger" data-modal="modal-1">
                   <img src="imgs\open-book (3).png" alt="" width="20px" >
               Libros
             </a>
@@ -116,8 +118,59 @@
         </div>
       </nav>
     <!-- Fin menu de arriba  -->
+    <!--Ventana emergente del menu Libros.-->
+      <div class="md-modal md-effect-1" id="modal-1">
+        <div class="md-content">
+          <h3>L I B R O S</h3>
+            <div>
+              <p>
+                Elige el nivel al que quieres acceder :
+              </p>
+                <button type="button" name="3ro de Secundaria">
+                  <a href="">
+                    3ro de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="4to de Secundaria">
+                  <a href="">
+                    4to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="5to de Secundaria">
+                  <a href="">
+                    5to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="6to de Secundaria">
+                  <a href="">
+                    6to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="Literatura">
+                  <a href="">
+                    Literatura
+                  </a>
+                </button>
+                  <br>
+                <button class="md-close">
+                  Cerrar
+                </button>
+            </div>
+        </div>
+      </div>
+      <div class="md-overlay">
+      </div>
 
 
+
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -152,7 +205,6 @@
     <input type="email" name="email" placeholder="E-mail">
     <textarea name="mensaje" id="" rows="10" cols="25" placeholder="Ingresa aquí el libro que quieres que agreguemos..."></textarea>
     <input type="submit" value="Enviar">
-    <a href="">Forgot password?</a>
   </div>
 </form>
 <form method="post" action="php/sugerencias2.php">
@@ -204,5 +256,15 @@ else if($('#log-reg-show').is(':checked')) {
 
 </div>
 </div>
+<!--Scripts-->
+  <script src="JS/app.js"></script>
+  <script src="JS/slide.js"></script>
+  <script src="JS/classie.js"></script>
+  <script src="JS/modal.js"></script>
+  <script>
+    var polyfilter_scriptpath = '/js/';
+  </script>
+  <script src="Js/cssParser.js"></script>
+  <script src="JS/css-filters-polyfill.js"></script>
   </body>
 </html>
