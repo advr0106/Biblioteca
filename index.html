@@ -4,15 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css\maqueta.css">
     <link href="https://fonts.googleapis.com/css?family=Anton|Poppins|Six+Caps|Special+Elite" rel="stylesheet">
     <link rel="stylesheet" href="css/principal.css">
-    <!--<link rel="stylesheet" href="style.css">-->
-    <link rel="stylesheet" href="CSS/libros2.css">
     <link rel="icon" type="image/png" href="imgs/logo-solo2.png" />
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="icon" type="image/png" href="imgs/logo/logo-solo2.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<script src="js/modernizr.custom.js"></script>
     <title>PWBooks</title>
   </head>
   <body>
@@ -51,7 +50,7 @@
             </a>
           </li>
           <li>
-            <a href="" class="t4" >
+            <a href="#" class="t4 md-trigger" data-modal="modal-1">
                   <img src="imgs\open-book (3).png" alt="" width="20px" >
               Libros
             </a>
@@ -64,6 +63,31 @@
               <li>
                 <a href="">
                   Buscar libro
+                </a>
+              </li>
+              <li>
+                <a href="tercero.html">
+                  3ro de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="cuarto.html">
+                  4to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="quinto.html">
+                  5to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="sexto.html">
+                  6to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="literatura.html">
+                  Obras Literarias
                 </a>
               </li>
             </ul>
@@ -116,7 +140,52 @@
         </div>
       </nav>
     <!-- Fin menu de arriba  -->
-
+    <!--Ventana emergente del menu Libros.-->
+      <div class="md-modal md-effect-1" id="modal-1">
+        <div class="md-content">
+          <h3>L I B R O S</h3>
+            <div>
+              <p>
+                Elige el nivel al que quieres acceder :
+              </p>
+                <button type="button" name="3ro de Secundaria">
+                  <a href="tercero.html">
+                    3ro de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="4to de Secundaria">
+                  <a href="cuarto.html">
+                    4to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="5to de Secundaria">
+                  <a href="quinto.html">
+                    5to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="6to de Secundaria">
+                  <a href="sexto.html">
+                    6to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="Literatura">
+                  <a href="literatura.html">
+                    Obras Literarias
+                  </a>
+                </button>
+                  <br>
+                <button class="md-close">
+                  Cerrar
+                </button>
+            </div>
+        </div>
+      </div>
+      <div class="md-overlay">
+      </div>
     <!-- Slideshow container -->
     <div class="slideshow-container">
 
@@ -163,14 +232,14 @@
       <div class="contededor">
         <h1 class="a1">Suscribirse a nuestro boletín</h1>
         <form>
-          <a href="" class="boton a1">Suscribirse</a>
+          <a href="Login.html" class="boton a1">Suscribirse</a>
         </form>
       </div>
     </section>
     <!--3ro de Secundaria-->
     <section class="cajas c1">
       <div class="texto">
-        <h2>3ro de <BR> Secundaria</h2>
+        <a href="tercero.html"><h2>3ro de <BR> Secundaria</h2></a>
       </div>
       <div class="card">
         <div class="front">
@@ -190,7 +259,7 @@
     </section>
     <section class="cajas c2">
       <div class="texto">
-        <h2>4to de <BR> Secundaria</h2>
+        <a href="cuarto.html"><h2>4to de <BR> Secundaria</h2></a>
       </div>
       <div class="card">
         <div class="front">
@@ -210,7 +279,7 @@
     </section>
     <section class="cajas c3">
       <div class="texto">
-        <h2>5to de <BR> Secundaria</h2>
+        <a href="quinto.html"><h2>5to de <BR> Secundaria</h2></a>
       </div>
       <div class="card">
         <div class="front">
@@ -230,7 +299,7 @@
     </section>
     <section class="cajas c4">
       <div class="texto">
-        <h2>6to de <BR> Secundaria</h2>
+        <a href="sexto.html"><h2>6to de <BR> Secundaria</h2></a>
       </div>
       <div class="card">
         <div class="front">
@@ -250,19 +319,19 @@
     </section>
     <section class="cajas c5">
       <div class="texto">
-        <h2>Literatura</h2>
+        <a href="literatura.html"><h2>Obras <br> Literarias</h2></a>
       </div>
       <div class="card">
         <div class="front">
-          <img class="cart" src="imgs/libros/Odisea.jpg">
+          <img class="cart" src="imgs/libros/Principito.jpg">
         </div>
         <div class="back">
   <div class="back-content middle">
-    <h2>Don Quijote de la Mancha</h2>
-    <span>Miguel de Cervantes</span>
+    <h2>El Principito</h2>
+    <span>Antoine de Saint-Exupery</span>
     <div class="sm">
-      <a href="#"><i class="fas fa-download"></i></a>
-      <a href="#"><i class="fas fa-bookmark"></i></a>
+      <a href="pdf/el_principito.pdf" download><i class="fas fa-download"></i></a>
+      <a href="pdf/el_principito.pdf"  target="_self"><i class="fas fa-bookmark"></i></a>
   </div>
         </div>
       </div>
@@ -274,7 +343,7 @@
     <p>&copy; 2019, Todos los derechos reservados - | 4to de Informática |.</p>
    </div>
    <div class="footer-icon">
-     
+
 </div>
 
 
@@ -283,7 +352,16 @@
 
 
 
-<script src="JS/slide.js"></script>
+  <!--Scripts-->
+    <script src="JS/app.js"></script>
+    <script src="JS/slide.js"></script>
+    <script src="JS/classie.js"></script>
+    <script src="JS/modal.js"></script>
+    <script>
+      var polyfilter_scriptpath = '/js/';
+    </script>
+    <script src="Js/cssParser.js"></script>
+    <script src="JS/css-filters-polyfill.js"></script>
 </div>
 <EMBED SRC="Musica\Audio 4 20 min.mp3" HIDDEN="true" preload="auto">
   </body>

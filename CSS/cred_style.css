@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Satisfy');
 .contenedor
   {
     margin: 0 auto 100px auto;
     max-width: 960;
+    width: 73%;
   }
 .cubo
   {
@@ -34,7 +36,7 @@
     position: absolute;
     width: 260px;
     height: 400px;
-    background-color: #d7c3c7;
+    background-color: #C09F80;
     backface-visibility: hidden;
   }
 .cara2 .poster
@@ -73,6 +75,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
 }
 .info header h1
 {
@@ -89,9 +93,11 @@
   padding: 1.2em 1.4em;
   margin: 2px 0 0;
   font-weight: 700;
-  color: #666;
+  color: #fff;
   line-height: 1.4em;
   border-top: 10px solid #555;
+  font-family: 'Satisfy', cursive;
+  font-size: 15px;
 }
 .cara2 .poster,
 .cara2 .info,
@@ -126,15 +132,15 @@
 }
 .cara1:nth-child(1) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Noah2.jpeg);
 }
 .cara1:nth-child(2) .cara2 .poster
 {
-    background-image: url(../imgs/creditos/a82.jpg);
+    background-image: url(../imgs/creditos/Genesis1.jpg);
 }
 .cara1:nth-child(2) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Genesis2.jpg);
 }
 .cara1:nth-child(3) .cara2 .poster
 {
@@ -142,7 +148,7 @@
 }
 .cara1:nth-child(3) .info header
 {
-  background-image: url(../imgs/creditos/);
+  background-image: url(../imgs/creditos/Stacy2.jpeg);
 }
 .cara1:nth-child(4) .cara2 .poster
 {
@@ -166,7 +172,7 @@
 }
 .cara1:nth-child(6) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Daniela2.jpeg);
 }
 .cara1:nth-child(7) .cara2 .poster
 {
@@ -250,11 +256,11 @@
 }
 .cara1:nth-child(17) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Hansel1.jpeg);
 }
 .cara1:nth-child(17) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Hansel2.jpeg);
 }
 .cara1:nth-child(18) .cara2 .poster
 {
@@ -266,27 +272,27 @@
 }
 .cara1:nth-child(19) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Joao1.jpeg);
 }
 .cara1:nth-child(19) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Joao2.jpeg);
 }
 .cara1:nth-child(20) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Obed1.jpeg);
 }
 .cara1:nth-child(20) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Obed2.jpeg);
 }
 .cara1:nth-child(21) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Marlon1.jpeg);
 }
 .cara1:nth-child(21) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Marlon2.jpeg);
 }
 .cara1:nth-child(22) .cara2 .poster
 {
@@ -310,7 +316,7 @@
 }
 .cara1:nth-child(24) .info header
 {
-  background-image: url(../imgs/creditos/);
+  background-image: url(../imgs/creditos/Mariel2.jpeg);
 }
 .cara1:nth-child(25) .cara2 .poster
 {
@@ -338,23 +344,23 @@
 }
 .cara1:nth-child(28) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Elio1.jpeg);
 }
 .cara1:nth-child(28) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Elio2.jpeg);
 }
 .cara1:nth-child(29) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Joan1.jpeg);
 }
 .cara1:nth-child(29) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Joan2.jpeg);
 }
 .cara1:nth-child(30) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Alex.jpeg);
 }
 .cara1:nth-child(30) .info header
 {
