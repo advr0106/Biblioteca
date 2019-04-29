@@ -122,9 +122,242 @@
 }
 .cara1:nth-child(1) .cara2 .poster
 {
-  background-image: url(../imgs/a82.jpg);
+  background-image: url(../imgs/creditos/Noah1.jpeg);
 }
 .cara1:nth-child(1) .info header
 {
-  background-image: url(../imgs/a8.jpg);
+  background-image: url(../imgs/creditos/a8.jpg);
 }
+.cara1:nth-child(2) .cara2 .poster
+{
+    background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(2) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(3) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Stacy1.jpeg);
+}
+.cara1:nth-child(3) .info header
+{
+  background-image: url(../imgs/creditos/);
+}
+.cara1:nth-child(4) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Arleen1.jpeg);
+}
+.cara1:nth-child(4) .info header
+{
+  background-image: url(../imgs/creditos/Arleen2.jpeg);
+}
+.cara1:nth-child(5) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(5) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(6) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Daniela1.jpeg);
+}
+.cara1:nth-child(6) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(7) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(7) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(8) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/);
+}
+.cara1:nth-child(8) .info header
+{
+  background-image: url(../imgs/creditos/Aimee2.jpg);
+}
+.cara1:nth-child(9) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(9) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(10) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Alberto1.jpeg);
+}
+.cara1:nth-child(10) .info header
+{
+  background-image: url(../imgs/creditos/);
+}
+.cara1:nth-child(11) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(11) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(12) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Katia1.jpeg);
+}
+.cara1:nth-child(12) .info header
+{
+  background-image: url(../imgs/creditos/);
+}
+.cara1:nth-child(13) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Camila1.jpeg);
+}
+.cara1:nth-child(13) .info header
+{
+  background-image: url(../imgs/creditos/Camila2.jpeg);
+}
+.cara1:nth-child(14) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/);
+}
+.cara1:nth-child(14) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(15) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(15) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(16) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(16) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(17) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(17) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(18) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(18) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(19) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(19) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(20) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(20) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(21) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(21) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(22) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(22) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(23) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Mariano1.jpeg);
+}
+.cara1:nth-child(23) .info header
+{
+  background-image: url(../imgs/creditos/Mariano2.jpeg);
+}
+.cara1:nth-child(24) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Mariel1.jpeg);
+}
+.cara1:nth-child(24) .info header
+{
+  background-image: url(../imgs/creditos/);
+}
+.cara1:nth-child(25) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Engel1.jpeg);
+}
+.cara1:nth-child(25) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(26) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Xiara1.jpg);
+}
+.cara1:nth-child(26) .info header
+{
+  background-image: url(../imgs/creditos/Xiara2.jpg);
+}
+.cara1:nth-child(27) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/Lisbette1.jpeg);
+}
+.cara1:nth-child(27) .info header
+{
+  background-image: url(../imgs/creditos/Lisbette2.jpeg);
+}
+.cara1:nth-child(28) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(28) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(29) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(29) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+.cara1:nth-child(30) .cara2 .poster
+{
+  background-image: url(../imgs/creditos/a82.jpg);
+}
+.cara1:nth-child(30) .info header
+{
+  background-image: url(../imgs/creditos/a8.jpg);
+}
+/*Ya*/
