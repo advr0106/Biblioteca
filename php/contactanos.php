@@ -8,10 +8,5 @@ echo "Correo enviado";
 else {
   echo "Correo no enviado";
 }
-public funtion plantilla(){
-  include "..SugEnv.html";
-}
-
-
 
 ?>
