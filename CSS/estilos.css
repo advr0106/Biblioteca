@@ -95,6 +95,7 @@ header .boton{
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 600;
+  color: rgba(0, 0, 0, 1);
 }
 
 .sobre-nosotros2{
@@ -102,6 +103,7 @@ header .boton{
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 600;
+  color: rgba(0, 0, 0, 1);
 }
 
 
@@ -110,6 +112,7 @@ header .boton{
   font-weight: 300;
   text-align: center;
   margin-bottom: 24px;
+  color: rgba(0, 0, 0, 1);
 }
 
 .slogan2{
@@ -117,6 +120,7 @@ header .boton{
   font-weight: 300;
   text-align: center;
   margin-bottom: 24px;
+  color: rgba(0, 0, 0, 1);
   }
 
 .parrafo{
@@ -196,6 +200,7 @@ header .boton{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    color: rgba(0, 0, 0, 1);
       }
 
   .card{
@@ -475,4 +480,3 @@ input[type="submit"] {
         font-size: 20px;
     }
 }
-
