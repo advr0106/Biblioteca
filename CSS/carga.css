@@ -9,7 +9,7 @@ body {
  height: 100%;
  background: #FFF;
  position: fixed;
- top: 0;
+ top: 0px;
  left: 0;
  z-index: 1;
 }
@@ -19,13 +19,13 @@ body {
  margin: 150px auto 50px auto;
  color: azure;
  top: -20%;
- left: 10%;
+ left: -2%;
  position: relative;
 }
 .loader-frame {
  width: 0% ;
- height: 50%;
- top: auto;
+ height: 40%;
+ top: 8%;
  margin: auto;
  position: relative;
 }
@@ -44,7 +44,7 @@ body {
 .loader2 {
  width: 60px;
  height: 60px;
- border-left: 5px solid #565656;
+ border-left: 5px solid #76323F;
  border-right: 5px solid #76323F;
  top: 5px; left: 5px;
  animation: anticlockwisespin 2s linear 3;
