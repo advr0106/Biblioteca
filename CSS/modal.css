@@ -3,7 +3,7 @@
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	width: 50%;
+	width: 30%;
 	max-width: 630px;
 	min-width: 320px;
 	height: auto;
@@ -16,6 +16,7 @@
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
+  font-family: 'Poppins', sans-serif;
 }
 /*Hacer la ventana visible cuando se da clic a Libros.*/
 .md-show {
@@ -45,7 +46,7 @@
 /* Content styles */
 .md-content {
 	color: #fff;
-	background: #535c68;
+	background: #565656;
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;
@@ -136,7 +137,7 @@ body {
 }
 
 a {
-	color: #C09F80;
+	color: #fff;
 	text-decoration: none;
 }
 
