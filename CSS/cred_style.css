@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Satisfy');
 .contenedor
   {
     margin: 0 auto 100px auto;
@@ -36,7 +36,7 @@
     position: absolute;
     width: 260px;
     height: 400px;
-    background-color: #d7c3c7;
+    background-color: #C09F80;
     backface-visibility: hidden;
   }
 .cara2 .poster
@@ -75,6 +75,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
 }
 .info header h1
 {
@@ -91,9 +93,11 @@
   padding: 1.2em 1.4em;
   margin: 2px 0 0;
   font-weight: 700;
-  color: #666;
+  color: #fff;
   line-height: 1.4em;
   border-top: 10px solid #555;
+  font-family: 'Satisfy', cursive;
+  font-size: 15px;
 }
 .cara2 .poster,
 .cara2 .info,
