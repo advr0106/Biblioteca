@@ -10,48 +10,30 @@
     <link rel="icon" type="image/png" href="imgs/logo/logo-solo2.png" />
 </head>
 <body background="imgs/fondo1.jpg">
-  
-  <br><br><br><br><br><br><br><br><br><br><br><br>
-
   <nav>
   <EMBED SRC="Musica\Audio 4 20 min.mp3" HIDDEN="true" preload="auto">
   </nav>
-  <form action="login/archivo_destino.php" method="post" enctype="application/x-www-form-urlencoded">
   	<div class="login-reg-panel">
 		<div class="login-info-box">
-			<h2>¿Tienes una cuenta?</h2>
-			<p>Have an account?</p>
-			<label id="label-register" for="log-reg-show">Logueate</label>
-			<input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
 		</div>
 </form>
 <form action="archivo_registrar.php" method="post" enctype="application/x-www-form-urlencoded">
 		<div class="register-info-box">
-			<h2>¿No tienes una cuenta?</h2>
-			<p>Don't have an account?</p>
-			<label id="label-login" for="log-login-show">Registrate</label>
-			<input type="radio" name="active-log-panel" id="log-login-show">
+
 		</div>
 </form>
 
 		<div class="white-panel">
 			<div class="login-show">
         <form>
-				<h2>Accede</h2>
-				<input type="email" placeholder="E-mail">
-				<input type="password" placeholder="Contraseña">
-        <input type="submit" value="Acceder">
-        <a href="index.html"><input type="button" value="       Cancelar        "></a>
-			</div>
+        <h2>Registrate</h2>
+        <input type="email" placeholder="E-mail">
+        <input type="password" placeholder="Contraseña">
+        <input type="password" placeholder="Confirmar Contraseña">
+        <a href="index.html"><input type="button" value="Cancelar"></a>
+        <input type="submit" value="Registrar">
     </form>
     <form>
-			<div class="register-show">
-				<h2>Registrate</h2>
-				<input type="email" placeholder="E-mail">
-				<input type="password" placeholder="Contraseña">
-				<input type="password" placeholder="Confirmar Contraseña">
-				<a href="index.html"><input type="button" value="Cancelar"></a>
-        <input type="submit" value="Registrar">
 			</div>
 </form>
 		</div>
