@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/principal.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/sugerencias.css">
+    <link rel="icon" type="image/png" href="imgs/logo/logo-solo2.png" />
+    <title>Sugerencias</title>
+  </head>
+  <body background="imgs/fondo2.jpg">
+    <!-- Menu de arriba  -->
+
+      <nav>
+      <EMBED SRC="Musica\Audio 4 20 min.mp3" HIDDEN="true" preload="auto">
+        <div class="logo">
+          <img src="imgs/logo/logo2.png" alt=""  >
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="index.html" class="t1">
+                <span class="icono">
+                  <img src="imgs\home.png" alt="" width="20px" >
+                </span>
+              Inicio
+            </a>
+          </li>
+          <li>
+            <a href="sobrenosotros2.html" class="t2" align="center">
+                <span class="icono">
+                <img src="imgs\home.png" alt="" width="20px" >
+                  </i>
+                </span>
+              Sobre nosotros
+            </a>
+          </li>
+          <li>
+            <a href="https://pwbooks2.blogspot.com/" class="t3" >
+                <span class="icono">
+                  <img src="imgs\wordpress.png" alt="" width="20px" >
+                  </i>
+                </span>
+              Blog
+            </a>
+          </li>
+          <li>
+            <a href="https://pwbooks2.blogspot.com/" class="t4" >
+                  <img src="imgs\open-book (3).png" alt="" width="20px" >
+              Libros
+            </a>
+            <ul class="sub-libros">
+              <li>
+                <a href="BibliotecaMejorada.html">
+                  Lo más popular
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  Buscar libro
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="t5">
+                <span class="icono">
+                  <img src="imgs\music-player.png" alt="" width="20px" >
+                </span>
+              Música
+            </a>
+            <ul class="sub-musica">
+              <li>
+                <a href="music.html">
+                  Lo más popular
+                </a>
+              </li>
+              <li>
+                <a href="music.html">
+                  Buscar música
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="Sugerencias.html" class="t6">
+                <span class="icono">
+                    <img src="imgs\suggestion.png" alt="">
+                  </i>
+                </span>
+              Sugerencias
+            </a>
+          </li>
+          <li>
+            <a href="creditos.html" class="t7">
+                <span class="icono">
+                  <img src="imgs\suggestion.png" alt="" width="20px" >
+                </span>
+              Web Master
+            </a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1">
+          </div>
+          <div class="line2">
+          </div>
+          <div class="line3">
+          </div>
+        </div>
+      </nav>
+    <!-- Fin menu de arriba  -->
+
+    <br
+    <fieldset aling="center">
+      <br>
+      <br>
+      <br>
+      <br>
+<h2 class="titulo-footer">Dejanos saber tus sugerencias</h2>
+<br>
+<form method="post"action="PHP\sugerencias.php">
+      <fieldset class="contenedor" >
+        <br>
+        <br>
+      <div >
+      <input type="email" name="email" id="" placeholder="E-mail">
+      <input type="text" name="curso" id="" placeholder="Curso">
+    <textarea name="mensaje" id="" rows="10" cols="25" placeholder="Ingrese aquí sus sugerencias..." aling="center" class="TextAreaS"></textarea>
+    <center>
+  <input type="submit" value="Enviar">
+  </div>
+  </center>
+  <br>
+  </fieldset>
+</form>
+<script src="JS/app.js"></script>
+
+
+<div class="footer">
+<div class="footer-text">
+<p>&copy; PWBooks | Informática| 2019. Todos los derechos reservados.</p>
+</div>
+<div class="footer-icon">
+ <a href="#" class="fa fa-facebook"></a>
+ <a href="#" class="fa fa-instagram"></a>
+
+</div>
+</div>
+  </body>
+</html>
