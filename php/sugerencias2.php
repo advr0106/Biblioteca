@@ -11,7 +11,4 @@ else {
 public funtion plantilla(){
   include "..SugEnv.html";
 }
-
-
-
 ?>
