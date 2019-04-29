@@ -130,11 +130,11 @@
 }
 .cara1:nth-child(2) .cara2 .poster
 {
-    background-image: url(../imgs/creditos/Genesis1.jpeg);
+    background-image: url(../imgs/creditos/Genesis1.jpg);
 }
 .cara1:nth-child(2) .info header
 {
-  background-image: url(../imgs/creditos/Genesis2.jpeg);
+  background-image: url(../imgs/creditos/Genesis2.jpg);
 }
 .cara1:nth-child(3) .cara2 .poster
 {
@@ -346,11 +346,11 @@
 }
 .cara1:nth-child(29) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Joan1.jpeg);
 }
 .cara1:nth-child(29) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Joan2.jpeg);
 }
 .cara1:nth-child(30) .cara2 .poster
 {
