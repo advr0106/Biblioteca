@@ -228,11 +228,11 @@
 }
 .cara1:nth-child(14) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/);
+  background-image: url(../imgs/creditos/Francisco1.jpeg);
 }
 .cara1:nth-child(14) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Francisco2.jpeg);
 }
 .cara1:nth-child(15) .cara2 .poster
 {
@@ -356,7 +356,7 @@
 }
 .cara1:nth-child(30) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/Alex.jpeg);
+  background-image: url(../imgs/creditos/Alex1.jpeg);
 }
 .cara1:nth-child(30) .info header
 {
