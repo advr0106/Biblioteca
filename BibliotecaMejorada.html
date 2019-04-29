@@ -8,7 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="imgs/logo/logo-solo2.png" />
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="icon" type="image/ico" href="imgs/logo/ico.ico" />
+    <script src="js/modernizr.custom.js"></script>
   </head>
   <body background="imgs\fondos\grain.jpg">
 
@@ -46,7 +48,7 @@
             </a>
           </li>
           <li>
-            <a href="" class="t4" >
+            <a href="#" class="t4 md-trigger" data-modal="modal-1">
                   <img src="imgs\open-book (3).png" alt="" width="20px" >
               Libros
             </a>
@@ -59,6 +61,31 @@
               <li>
                 <a href="">
                   Buscar libro
+                </a>
+              </li>
+              <li>
+                <a href="tercero.html">
+                  3ro de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="cuarto.html">
+                  4to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="quinto.html">
+                  5to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="sexto.html">
+                  6to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="literatura.html">
+                  Obras Literarias
                 </a>
               </li>
             </ul>
@@ -111,7 +138,52 @@
         </div>
       </nav>
     <!-- Fin menu de arriba  -->
-
+    <!--Ventana emergente del menu Libros.-->
+      <div class="md-modal md-effect-1" id="modal-1">
+        <div class="md-content">
+          <h3>L I B R O S</h3>
+            <div>
+              <p>
+                Elige el nivel al que quieres acceder :
+              </p>
+                <button type="button" name="3ro de Secundaria">
+                  <a href="tercero.html">
+                    3ro de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="4to de Secundaria">
+                  <a href="cuarto.html">
+                    4to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="5to de Secundaria">
+                  <a href="quinto.html">
+                    5to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="6to de Secundaria">
+                  <a href="sexto.html">
+                    6to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="Literatura">
+                  <a href="">
+                    Literatura
+                  </a>
+                </button>
+                  <br>
+                <button class="md-close">
+                  Cerrar
+                </button>
+            </div>
+        </div>
+      </div>
+      <div class="md-overlay">
+      </div>
 
 <script src="JS/app.js"></script>
 <!--PRIMERA FILA DE LIBROS-->
@@ -444,6 +516,15 @@
 
    </div>
    </div>
-
+   <!--Scripts-->
+     <script src="JS/app.js"></script>
+     <script src="JS/slide.js"></script>
+     <script src="JS/classie.js"></script>
+     <script src="JS/modal.js"></script>
+     <script>
+       var polyfilter_scriptpath = '/js/';
+     </script>
+     <script src="Js/cssParser.js"></script>
+     <script src="JS/css-filters-polyfill.js"></script>
   </body>
   </html>
