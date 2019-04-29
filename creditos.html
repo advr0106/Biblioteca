@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="imgs/logo/logo-solo2.png" />
     <link rel="stylesheet" href="css/titulo.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="icon" type="image/ico" href="imgs/logo/ico.ico" />
+    <script src="js/modernizr.custom.js"></script>
   </head>
   <body>
     <!-- Menu de arriba  -->
 
       <nav>
-        <EMBED SRC="Musica\Audio 4 20 min.mp3" HIDDEN="true" preload="auto">
+
         <div class="logo">
           <img src="imgs/logo/logo2.png" alt=""  >
         </div>
@@ -22,36 +25,32 @@
           <li>
             <a href="index.html" class="t1">
                 <span class="icono">
-                  <i class="icon icon-home3">
-                  </i>
+                  <img src="imgs\home.png" alt="" width="20px" >
                 </span>
               Inicio
             </a>
           </li>
           <li>
-            <a href="sobrenosotros2.html" class="t2">
+            <a href="sobrenosotros2.html" class="t2" align="center">
                 <span class="icono">
-                  <i class="icon icon-users">
+                <img src="imgs\sobrenosotros.png" alt="" width="20px" >
                   </i>
                 </span>
               Sobre nosotros
             </a>
           </li>
           <li>
-            <a href="https://pwbooks2.blogspot.com/" class="t3">
+            <a href="https://pwbooks2.blogspot.com/" class="t3" >
                 <span class="icono">
-                  <i class="icon icon-wordpress">
+                  <img src="imgs\wordpress.png" alt="" width="20px" >
                   </i>
                 </span>
               Blog
             </a>
           </li>
           <li>
-            <a href="#" class="t4">
-                <span class="icono">
-                  <i class="icon icon-book">
-                  </i>
-                </span>
+            <a href="#" class="t4 md-trigger" data-modal="modal-1">
+                  <img src="imgs\open-book (3).png" alt="" width="20px" >
               Libros
             </a>
             <ul class="sub-libros">
@@ -65,13 +64,37 @@
                   Buscar libro
                 </a>
               </li>
+              <li>
+                <a href="tercero.html">
+                  3ro de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="cuarto.html">
+                  4to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="quinto.html">
+                  5to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="sexto.html">
+                  6to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="literatura.html">
+                  Obras Literarias
+                </a>
+              </li>
             </ul>
           </li>
           <li>
             <a href="#" class="t5">
                 <span class="icono">
-                  <i class="icon icon-music">
-                  </i>
+                  <img src="imgs\music-player.png" alt="" width="20px" >
                 </span>
               Música
             </a>
@@ -89,9 +112,9 @@
             </ul>
           </li>
           <li>
-            <a href="#" class="t6">
+            <a href="Sugerencias.html" class="t6">
                 <span class="icono">
-                  <i class="icon icon-bullhorn">
+                    <img src="imgs\suggestion.png" alt="" width="20px">
                   </i>
                 </span>
               Sugerencias
@@ -100,8 +123,7 @@
           <li>
             <a href="creditos.html" class="t7">
                 <span class="icono">
-                  <i class="icon icon-display">
-                  </i>
+                  <img src="imgs\webmaster.png" alt="" width="20px" >
                 </span>
               Web Master
             </a>
@@ -117,6 +139,52 @@
         </div>
       </nav>
     <!-- Fin menu de arriba  -->
+    <!--Ventana emergente del menu Libros.-->
+      <div class="md-modal md-effect-1" id="modal-1">
+        <div class="md-content">
+          <h3>L I B R O S</h3>
+            <div>
+              <p>
+                Elige el nivel al que quieres acceder :
+              </p>
+                <button type="button" name="3ro de Secundaria">
+                  <a href="tercero.html">
+                    3ro de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="4to de Secundaria">
+                  <a href="cuarto.html">
+                    4to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="5to de Secundaria">
+                  <a href="quinto.html">
+                    5to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="6to de Secundaria">
+                  <a href="sexto.html">
+                    6to de Secundaria
+                  </a>
+                </button>
+                  <br>
+                <button type="button" name="Literatura">
+                  <a href="">
+                    Literatura
+                  </a>
+                </button>
+                  <br>
+                <button class="md-close">
+                  Cerrar
+                </button>
+            </div>
+        </div>
+      </div>
+      <div class="md-overlay">
+      </div>
 <EMBED SRC="Musica\Audio 4 20 min.mp3" HIDDEN="true" preload="auto">
 
 <script src="JS/app.js"></script>
@@ -239,7 +307,7 @@
               <span class="rol">..</span>
               <span class="carrera">...</span>
             </header>
-            <p>Texto relacionado</p>
+            <p>15 años. Aficionada por la base de datos, la ingeniería mecatrónica y la biotecnología. Escribidora por gusto. Miembro activo del Modelo de Naciones Unidas. Se esfuerza siempre en lograr sus sueños, teniendo siempre en cuenta a sus seres queridos. «Todo progreso que no sea humano, no es progreso.»</p>
           </div>
           </div>
         </li><li class="cara1">
@@ -566,5 +634,15 @@
 
     </div>
 </div>
+<!--Scripts-->
+  <script src="JS/app.js"></script>
+  <script src="JS/slide.js"></script>
+  <script src="JS/classie.js"></script>
+  <script src="JS/modal.js"></script>
+  <script>
+    var polyfilter_scriptpath = '/js/';
+  </script>
+  <script src="Js/cssParser.js"></script>
+  <script src="JS/css-filters-polyfill.js"></script>
   </body>
 </html>
