@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Nothing+You+Could+Do|Satisfy|Shadows+Into+Light');
 .contenedor
   {
     margin: 0 auto 100px auto;
@@ -96,8 +96,8 @@
   color: #fff;
   line-height: 1.4em;
   border-top: 10px solid #555;
-  font-family: 'Satisfy', cursive;
-  font-size: 15px;
+  font-size: 14px;
+  text-align: justify;
 }
 .cara2 .poster,
 .cara2 .info,
