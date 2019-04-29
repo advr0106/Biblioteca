@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es" dir="ltr" class="no-js">
   <head>
     <meta charset="utf-8">
     <title></title>
@@ -10,8 +10,24 @@
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/libros2.css">
+    <script src="js/modernizr.custom.js"></script>
   </head>
   <body>
+    <div class="md-modal md-effect-1" id="modal-1">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+    <div class="md-overlay"></div>
     <nav>
       <div class="logo">
         <h4>PWBooks</h4>
@@ -45,7 +61,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="t4">
+          <a href="#" class="t4 md-trigger" data-modal="modal-1">
               <span class="icono">
                 <i class="icon icon-book">
                 </i>
@@ -146,6 +162,15 @@
   </div>
 </section>
 <script src="JS/app.js"></script>
+<script src="JS/classie.js"></script>
+<script src="JS/modal.js"></script>
+
+<script>
+  // this is important for IEs
+  var polyfilter_scriptpath = '/js/';
+</script>
+<script src="Js/cssParser.js"></script>
+<script src="JS/css-filters-polyfill.js"></script>
 <div class="footer">
 <div class="footer-text">
 <p>&copy; PWBooks, 2019. Todos los derechos reservados.</p>
