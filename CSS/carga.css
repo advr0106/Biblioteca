@@ -37,15 +37,15 @@ body {
 .loader1 {
  width: 70px;
  height: 70px;
- border-top: 5px solid #76323F;
- border-bottom: 5px solid #76323F;
+ border-top: 5px solid #565656;
+ border-bottom: 5px solid #565656;
  animation: clockwisespin 2s linear 3;
 }
 .loader2 {
  width: 60px;
  height: 60px;
  border-left: 5px solid #565656;
- border-right: 5px solid #565656;
+ border-right: 5px solid #76323F;
  top: 5px; left: 5px;
  animation: anticlockwisespin 2s linear 3;
 }
