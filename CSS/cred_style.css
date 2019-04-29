@@ -1,7 +1,9 @@
+
 .contenedor
   {
     margin: 0 auto 100px auto;
     max-width: 960;
+    width: 73%;
   }
 .cubo
   {
@@ -354,7 +356,7 @@
 }
 .cara1:nth-child(30) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Alex.jpeg);
 }
 .cara1:nth-child(30) .info header
 {
