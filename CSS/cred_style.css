@@ -278,15 +278,15 @@
 }
 .cara1:nth-child(20) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/);
 }
 .cara1:nth-child(21) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Marlon1.jpeg);
 }
 .cara1:nth-child(21) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Marlon2.jpeg);
 }
 .cara1:nth-child(22) .cara2 .poster
 {
@@ -310,7 +310,7 @@
 }
 .cara1:nth-child(24) .info header
 {
-  background-image: url(../imgs/creditos/);
+  background-image: url(../imgs/creditos/Mariel2.jpeg);
 }
 .cara1:nth-child(25) .cara2 .poster
 {
