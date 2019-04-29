@@ -126,15 +126,15 @@
 }
 .cara1:nth-child(1) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Noah2.jpeg);
 }
 .cara1:nth-child(2) .cara2 .poster
 {
-    background-image: url(../imgs/creditos/a82.jpg);
+    background-image: url(../imgs/creditos/Genesis1.jpeg);
 }
 .cara1:nth-child(2) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Genesis2.jpeg);
 }
 .cara1:nth-child(3) .cara2 .poster
 {
@@ -142,7 +142,7 @@
 }
 .cara1:nth-child(3) .info header
 {
-  background-image: url(../imgs/creditos/);
+  background-image: url(../imgs/creditos/Stacy2.jpeg);
 }
 .cara1:nth-child(4) .cara2 .poster
 {
@@ -166,7 +166,7 @@
 }
 .cara1:nth-child(6) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Daniela2.jpeg);
 }
 .cara1:nth-child(7) .cara2 .poster
 {
@@ -250,11 +250,11 @@
 }
 .cara1:nth-child(17) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Hansel1.jpeg);
 }
 .cara1:nth-child(17) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Hansel2.jpeg);
 }
 .cara1:nth-child(18) .cara2 .poster
 {
@@ -266,15 +266,15 @@
 }
 .cara1:nth-child(19) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Joao1.jpeg);
 }
 .cara1:nth-child(19) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Joao2.jpeg);
 }
 .cara1:nth-child(20) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/);
 }
 .cara1:nth-child(20) .info header
 {
