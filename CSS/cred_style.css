@@ -160,11 +160,11 @@
 }
 .cara1:nth-child(5) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/a82.jpg);
+  background-image: url(../imgs/creditos/Francheska1.jpeg);
 }
 .cara1:nth-child(5) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Francheska2.jpeg);
 }
 .cara1:nth-child(6) .cara2 .poster
 {
@@ -216,11 +216,11 @@
 }
 .cara1:nth-child(12) .cara2 .poster
 {
-  background-image: url(../imgs/creditos/Katia1.jpeg);
+  background-image: url(../imgs/creditos/Katia1.jpg);
 }
 .cara1:nth-child(12) .info header
 {
-  background-image: url(../imgs/creditos/);
+  background-image: url(../imgs/creditos/Katia2.jpg);
 }
 .cara1:nth-child(13) .cara2 .poster
 {
@@ -244,7 +244,7 @@
 }
 .cara1:nth-child(15) .info header
 {
-  background-image: url(../imgs/creditos/Ezequiel2.jpg);
+  background-image: url(../imgs/creditos/Ezequiel2.jpeg);
 }
 .cara1:nth-child(16) .cara2 .poster
 {
