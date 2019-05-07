@@ -1,8 +1,8 @@
 <?php
-$email = $_POST['email'];
+$asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
-if(mail('pwbooks19@gmail.com' , $email, $mensaje)){
+if(mail('pwbooks19@gmail.com' , $asunto, $mensaje)){
 echo "Correo enviado";
 <!DOCTYPE html>
 <html lang ="en">
@@ -20,3 +20,7 @@ echo "Correo enviado";
 else{
 
 }
+
+
+
+?>
