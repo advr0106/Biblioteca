@@ -316,7 +316,7 @@ body{
     display:block;
     opacity:0.9;
 }
-.login-show input[type="email"], .login-show input[type="password"]{
+.login-show input[type="text"], .login-show input[type="password"]{
     width: 100%;
     display: block;
     margin:20px 0;
@@ -341,7 +341,7 @@ body{
     padding:10px 0;
 }
 
-.register-show input[type="email"], .register-show input[type="password"]{
+.register-show input[type="text"], .register-show input[type="password"]{
     width: 100%;
     display: block;
     margin:20px 0;
