@@ -357,13 +357,15 @@
 .cara1:nth-child(29) .info header
 {
   background-image: url(../imgs/creditos/Joan2.jpeg);
+
 }
 .cara1:nth-child(30) .cara2 .poster
 {
   background-image: url(../imgs/creditos/Alex1.jpeg);
+
 }
 .cara1:nth-child(30) .info header
 {
-  background-image: url(../imgs/creditos/a8.jpg);
+  background-image: url(../imgs/creditos/Alex2.jpeg);
 }
 /*Ya*/

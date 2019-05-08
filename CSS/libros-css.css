@@ -22,22 +22,20 @@
 html,
 body
   {
-    height: 100%;
+
     -webkit-font-smoothing: subpixel-antialiased;
   }
 
 html
   {
-    font-size: 100%;
+
   }
 
 body
   {
     background: #FFF;
     color: #34495e;
-    font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: 400;
-    line-height: 1.2;
+
   }
 
 ul
@@ -96,7 +94,7 @@ a
   HARDCOVER
   Table of Contents
 
-  1. contendor
+  1. contenedor
   2. background & color
   3. opening cover, back cover and pages
   4. position, transform y transition
@@ -314,6 +312,10 @@ a
   	position: absolute;
   	top: 0;
   	left: 0;
+  }
+  .portada{
+    width: 167px;
+    height: 220px;
   }
 
   /* HARDCOVER front */
