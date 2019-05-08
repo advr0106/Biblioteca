@@ -96,7 +96,7 @@ a
   HARDCOVER
   Table of Contents
 
-  1. container
+  1. contendor
   2. background & color
   3. opening cover, back cover and pages
   4. position, transform y transition
@@ -233,6 +233,7 @@ a
   	-moz-transform: rotateY(-36deg);
   	transform: rotateY(-36deg);
   }
+
 
   /*
   	4. position, transform & transition
