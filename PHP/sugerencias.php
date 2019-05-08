@@ -1,17 +1,7 @@
 <?php
-$email = $_POST['email'];
+$asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
-if(mail('pwbooks19@gmail.com' , $email. " 1"., $mensaje)){
-echo "Tu mensaje no se pudo Enviar";
-}
-else {
-  echo "Correo no enviado";
-}
-public funtion plantilla(){
-  include "..SugEnv.html";
-}
-
-
+mail('pwbooks19@gmail.com' , $asunto, $mensaje);
 
 ?>

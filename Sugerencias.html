@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
-    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="CSS/principal.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/sugerencias.css">
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/sugerencias.css">
+    <link rel="stylesheet" href="CSS/modal.css">
     <link rel="icon" type="image/ico" href="imgs/logo/ico.ico" />
-    <script src="js/modernizr.custom.js">
+    <script src="JS/modernizr.custom.js">
 
     </script>
     <title>Sugerencias</title>
@@ -21,7 +21,6 @@
     <!-- Menu de arriba  -->
 
       <nav>
-      <EMBED SRC="Musica\Audio 4 20 min.mp3" HIDDEN="true" preload="auto">
         <div class="logo">
           <img src="imgs/logo/logo2.png" alt=""  >
         </div>
@@ -29,7 +28,7 @@
           <li>
             <a href="index.html" class="t1">
                 <span class="icono">
-                  <img src="imgs\home.png" alt="" width="20px" >
+                  <img src="imgs/home.png" alt="" width="20px" >
                 </span>
               Inicio
             </a>
@@ -37,7 +36,7 @@
           <li>
             <a href="sobrenosotros2.html" class="t2" align="center">
                 <span class="icono">
-                <img src="imgs\home.png" alt="" width="20px" >
+                <img src="imgs/sobrenosotros.png" alt="" width="20px" >
                   </i>
                 </span>
               Sobre nosotros
@@ -46,7 +45,7 @@
           <li>
             <a href="https://pwbooks2.blogspot.com/" class="t3" >
                 <span class="icono">
-                  <img src="imgs\wordpress.png" alt="" width="20px" >
+                  <img src="imgs/wordpress.png" alt="" width="20px" >
                   </i>
                 </span>
               Blog
@@ -54,7 +53,7 @@
           </li>
           <li>
             <a href="#" class="t4 md-trigger" data-modal="modal-1">
-                  <img src="imgs\open-book (3).png" alt="" width="20px" >
+                  <img src="imgs/open-book (3).png" alt="" width="20px" >
               Libros
             </a>
             <ul class="sub-libros">
@@ -68,12 +67,37 @@
                   Buscar libro
                 </a>
               </li>
+              <li>
+                <a href="tercero.html">
+                  3ro de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="cuarto.html">
+                  4to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="quinto.html">
+                  5to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="sexto.html">
+                  6to de Secundaria
+                </a>
+              </li>
+              <li>
+                <a href="literatura.html">
+                  Obras Literarias
+                </a>
+              </li>
             </ul>
           </li>
           <li>
             <a href="#" class="t5">
                 <span class="icono">
-                  <img src="imgs\music-player.png" alt="" width="20px" >
+                  <img src="imgs/music-player.png" alt="" width="20px" >
                 </span>
               Música
             </a>
@@ -93,7 +117,7 @@
           <li>
             <a href="Sugerencias.html" class="t6">
                 <span class="icono">
-                    <img src="imgs\suggestion.png" alt="">
+                    <img src="imgs/suggestion.png" alt="" width="20px">
                   </i>
                 </span>
               Sugerencias
@@ -102,7 +126,7 @@
           <li>
             <a href="creditos.html" class="t7">
                 <span class="icono">
-                  <img src="imgs\suggestion.png" alt="" width="20px" >
+                  <img src="imgs/webmaster.png" alt="" width="20px" >
                 </span>
               Web Master
             </a>
@@ -202,7 +226,7 @@
 <div class="white-panel">
   <div class="login-show">
     <h2>¿Que libro quieres que agreguemos?</h2>
-    <input type="email" name="email" placeholder="E-mail">
+    <input type="email" name="asunto" placeholder="E-mail">
     <textarea name="mensaje" id="" rows="10" cols="25" placeholder="Ingresa aquí el libro que quieres que agreguemos..."></textarea>
     <input type="submit" value="Enviar">
   </div>
@@ -210,7 +234,7 @@
 <form method="post" action="php/sugerencias2.php">
   <div class="register-show">
     <h2>¿Qué cambios sugerieres para la página?</h2>
-    <input type="email" placeholder="E-mail">
+    <input type="email"  name="asunto" placeholder="E-mail">
     <textarea name="mensaje" id="" rows="10" cols="25" placeholder="Ingresa aquí el cambio que quieres que hagamos a la página..."></textarea>
     <input type="submit" value="Enviar">
   </div>
@@ -264,7 +288,7 @@ else if($('#log-reg-show').is(':checked')) {
   <script>
     var polyfilter_scriptpath = '/js/';
   </script>
-  <script src="Js/cssParser.js"></script>
+  <script src="JS/cssParser.js"></script>
   <script src="JS/css-filters-polyfill.js"></script>
   </body>
 </html>
