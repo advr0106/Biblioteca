@@ -7,7 +7,7 @@
  function frame(){
   if(loading == 100) {
    clearInterval(id);
-   window.open("inicio.html", "_self");
+   window.open("PantallaPrincipal20.html", "_self");
   }
   else {
    loading = loading + 1;
