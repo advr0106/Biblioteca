@@ -2,7 +2,7 @@
 $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
-if(mail('_mainaccount@pwbooks.site', $asunto, $mensaje)){
+if(mail('pwbookss@pwbooks.site', $asunto, $mensaje)){
 include 'SugerenciasEnviadas.html';
 }
 else {
