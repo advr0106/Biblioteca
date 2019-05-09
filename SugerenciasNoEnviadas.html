@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="CSS/principal.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="CSS/estilos.css">
-    <link rel="stylesheet" href="CSS/sugerencias.css">
+    <link rel="stylesheet" href="CSS/sugerenciasEnviadas.css">
     <link rel="stylesheet" href="CSS/modal.css">
     <link rel="icon" type="image/ico" href="imgs/logo/ico.ico" />
     <script src="JS/modernizr.custom.js">
@@ -183,58 +183,46 @@
       </div>
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+      <br>
+        <br>
+          <br>
+            <br>
+              <br>
+                <br>
+                <br>
+                  <br>
+                    <br>
+                      <br>
+                        <br>
+                          <br>
+                          <br>
+                            <br>
+                              <br>
+                                <br>
+                                  <br>
+                                    <br>
 <div class="login-reg-panel">
 <div class="login-info-box">
-  <h2>¿Tienes sugerencias para nuevos libros?</h2>
-  <p>Dale click aquí</p>
-  <label id="label-register" for="log-reg-show">Libros</label>
-  <input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
 </div>
-
+</form>
+<form action="archivo_registrar.php" method="post" enctype="application/x-www-form-urlencoded">
 <div class="register-info-box">
-  <h2>¿Tienes alguna sugerencia de cambios en la página?</h2>
-  <p>Dale click aquí</p>
-  <label id="label-login" for="log-login-show">Página</label>
-  <input type="radio" name="active-log-panel" id="log-login-show">
+
 </div>
-<form method="post" action="sugerencias.php">
+</form>
+
 <div class="white-panel">
   <div class="login-show">
-    <h2>¿Que libro quieres que agreguemos?</h2>
-    <input type="text" name="asunto" placeholder="E-mail">
-    <textarea name="mensaje" id="" rows="10" cols="25" placeholder="Ingresa aquí el libro que quieres que agreguemos..."></textarea>
-    <input type="submit" value="Enviar">
-  </div>
+    <form action="index.html">
+    <h2>No enviado</h2>
+    <input type="submit" value="Aceptar" >
 </form>
-<form method="post" action="sugerencias2.php">
-  <div class="register-show">
-    <h2>¿Qué cambios sugerieres para la página?</h2>
-    <input type="text"  name="asunto" placeholder="E-mail">
-    <textarea name="mensaje" id="" rows="10" cols="25" placeholder="Ingresa aquí el cambio que quieres que hagamos a la página..."></textarea>
-    <input type="submit" value="Enviar">
+<form>
   </div>
 </form>
 </div>
 </div>
 <script>
-
 $(document).ready(function(){
 $('.login-info-box').fadeOut();
 $('.login-show').addClass('show-log-panel');
@@ -261,7 +249,30 @@ else if($('#log-reg-show').is(':checked')) {
     $('.register-show').removeClass('show-log-panel');
 }
 });
+
+
+
+
+
 </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
 
 <div class="footer">
 <div class="footer-text">
