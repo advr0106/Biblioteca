@@ -10,11 +10,10 @@ $carta .= "Mensaje: $mensaje";
 
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-header('Location:mensaje-de-envio.html');
+header('SugerenciasEnviadas.html');
 
 
 
   mail($destinatario, $asunto, $carta);
   header('Location:mensaje-de-envio.html');
-include 'SugerenciasEnviadas.html';
 ?>
