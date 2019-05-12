@@ -12,6 +12,6 @@ if(mail($destinatario, $asunto, $carta)){
   include 'SugerenciasEnviadas.html';
 }
 else{
-  include 'SugerenciasNoEnviadas';
+  include 'SugerenciasEnviadas.html';
 }
 ?>
