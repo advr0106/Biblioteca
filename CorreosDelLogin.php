@@ -5,9 +5,17 @@ $mensaje = $_POST['mensaje'];
 $destinatario = "ezelorenzog@gmail.com";
 $asunto = "Contacto desde nuestra web";
 
+<<<<<<< HEAD
 $carta = "Mensaje: $mensaje";
+=======
+
+>>>>>>> ff06a6937f0bed438f27d002061975314f7724a3
 
 // Enviando Mensaje
-mail($destinatario, $asunto, $carta);
-include 'SugerenciasEnviadas.html';
+if(mail($destinatario, $asunto, $carta)){
+  include 'SugerenciasEnviadas.html';
+}
+else{
+  include 'SugerenciasEnviadas.html';
+}
 ?>
