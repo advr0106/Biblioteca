@@ -2,7 +2,7 @@
 $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 // Datos para el correo
-$destinatario = "ezelorenzog@gmail.com";
+$destinatario = "_mainaccount@pwbooks.site";
 $asunto = "Contacto desde nuestra web";
 
 $carta = "Mensaje: $mensaje";
