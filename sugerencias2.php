@@ -5,7 +5,7 @@ $mensaje = $_POST['mensaje'];
 $destinatario = "ezelorenzog@gmail.com";
 $asunto = "Contacto desde nuestra web";
 
-$carta .= "Mensaje: $mensaje";
+$carta = "Mensaje: $mensaje";
 
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
